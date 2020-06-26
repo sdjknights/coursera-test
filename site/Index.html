@@ -3,31 +3,106 @@
 	<head>
 		<meta charset="utf-8">
 		<title>I dunno!</title>
+		<style type="text/css">
+			p {
+	color: blue;
+	font-size: 20px;
+	width: 200px;
+}
+
+h1 {
+	color: red;
+	font-size: 36px;
+	text-align: center;
+}
+
+div, .blue {
+	color: blue;
+}
+
+#name {
+	color: red;
+	font-size: 72px;
+}
+
+.highlight {
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+	background-color: green;
+	opacity: .6;
+}
+
+#mainPoint {
+	font-style: 24px;
+	font-weight: bold;
+	background-color: red;
+	opacity: .7;
+}
+
+p.big {
+	font-size: 19px;
+}
+
+article p {
+	font-kerning: 150;
+	font-size: 72;
+}
+
+section li {
+	color:purple;
+	list-style: none;
+}
+a:link, a:visited{
+	text-decoration: none;
+	background-color: green;
+	border: 1px solid blue;
+	color: black;
+	display: block;
+	width: 200px;
+	text-align: center;
+	margin-bottom: 1px;
+}
+
+a:hover, a:active {
+	background-color: red;
+	color: purple;
+}
+
+section li:nth-child(3) {
+	font-size: 24px;
+}
+
+section li:nth-child(odd) {
+	background-color: yellow
+}
+
+		</style>
 	</head>
 <body>
 	<h1 id="top">hellooooo casey nerp</h1>
 	<h2>Links to page sections</h2>
-	<section>
-		<ul>
-			<!--Link to sections -->
-			<li><a href="#section1">Divs and Spans</a></li>
-			<li><a href="#section2">Lists</a></li>
-			<li><a href="#section3">Character Entity References</a></li>
-			<li><a href="#section4">Cat Ass Trophy</a></li>
-		</ul>	
-	</section>
-	
-	<section id="section1">
-		<h3>Divs and Spans</h3>
-			<div>DIV 1: Stuff stuff stuff</div>
-			<div>DIV 2: Thingummy doohickey</div>
-			<span>Span 1: Following right after div 2</span>
-			<span>Span 1.5: on the same line as span 1?</span>
-			<div>DIV 3: Following right after span 1
-				<span>Span 2: Inside of div 3</span>
-				Continue content of div 3
-			</div>
-	</section>
+		<section>
+			<ul>
+				<!--Link to sections -->
+				<li><a href="#section1">Divs and Spans</a></li>
+				<li><a href="#section2">Lists</a></li>
+				<li><a href="#section3">Character Entity References</a></li>
+				<li><a href="#section4">Cat Ass Trophy</a></li>
+			</ul>	
+		</section>
+		
+		<section id="section1">
+			<h3>Divs and Spans</h3>
+				<div class="blue">DIV 1: Stuff stuff stuff</div>
+				<div id="name">DIV 2: Thingummy doohickey</div>
+				<span id="mainPoint">Span 1: Following right after div 2</span>
+				<span id="mainPoint">Span 1.5: on the same line as span 1?</span>
+				<div>DIV 3: Following right after span 1
+					<span>Span 2: Inside of div 3</span>
+					Continue content of div 3
+				</div>
+		</section>
 
 	<section id="section2">
 			<h3>Lists</h3>
@@ -62,15 +137,18 @@
 					</ul>
 			</ul>
 			<a href="https://www.roblox.com/games/189707/Natural-Disaster-Survival?refPageId=52239b88-2a34-4267-af04-ce5b17808661" title="Natural Disaster Survival">Natural Disaster Survival</a>
-			<p>Here is a greater than sign &gt;<br>
-				And here is a less than sign &lt;<br>
-				And here is an ampersand &amp;<br>
-			</p>
+					<p class="highlight">Here is a greater than sign &gt;<br>
+					And here is a less than sign &lt;<br>
+					And here is an ampersand &amp;<br>
+					</p>
+					<article>
+						<p>Article stuff</p>
+					</article>
 	</section>
 
 	<section id="section3">
 		<h3>Bum Tickle</h3>
-		<p>Here's a great big long paragraph that I need to do to test something out. I don't really know what I'm going to put in here because the only thing that really matters is the last few words. In fact, even they don't matter. They could be anything but it's all about them. What this should show is that the last two words stay together when wrapping from resizing the window or whateves. So here goes. The last two words. Bum&nbsp;tickle.</p>
+		<p class="big">Here's a great big long paragraph that I need to do to test something out. I don't really know what I'm going to put in here because the only thing that really matters is the last few words. In fact, even they don't matter. They could be anything but it's all about them. What this should show is that the last two words stay together when wrapping from resizing the window or whateves. So here goes. The last two words. Bum&nbsp;tickle.</p>
 		<p>"I am a quote" quoth the quotee</p>
 		<a href="http://www.google.com"
 		target="_blank" title="Google in a new tab">
