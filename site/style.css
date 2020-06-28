@@ -53,6 +53,7 @@ article p {
 section li {
 	color:purple;
 	list-style: none;
+	text-align: left;
 }
 a:link, a:visited{
 	text-decoration: none;
