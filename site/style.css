@@ -1,19 +1,19 @@
 body {
 	color: red;
 	text-align: center;
-	font-family: Helvetica;
+	font-family: Tahoma, Geneva, sans-serif;
 	background-color: powderblue;
+	font-size: 120%;
 }
 
 p {
 	color: blue;
-	font-size: 20px;
 	width: 200px;
 }
 
 h1 {
 	color: red;
-	font-size: 36px;
+	font-size: 2em;
 	text-align: center;
 }
 
@@ -78,3 +78,14 @@ section li:nth-child(3) {
 section li:nth-child(odd) {
 	background-color: yellow
 }
+
+.style {
+			font-family: Arial, Helvetica, sans-serif;
+					
+			color: #ff0000;
+			font-style: italic;
+			font-weight: 900;
+			font-size: 24px;
+			text-transform: capitalize;
+			text-align: right;
+		}
