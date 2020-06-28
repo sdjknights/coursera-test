@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Blank Page</title>
+
+	<h1 id="top">Totes blank page</h1>
+<h2>Page Links</h2>
+	<section>
+		<ul style="list-style-type:none">
+			<li><a href="Index.html">Home</a></li>
+			<li><A href="blankpage">Blank Page</a></li>
