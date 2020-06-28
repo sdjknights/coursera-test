@@ -1,0 +1,72 @@
+p {
+	color: blue;
+	font-size: 20px;
+	width: 200px;
+}
+
+h1 {
+	color: red;
+	font-size: 36px;
+	text-align: center;
+}
+
+div, .blue {
+	color: blue;
+}
+
+#name {
+	color: red;
+	font-size: 72px;
+}
+
+.highlight {
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+	background-color: green;
+	opacity: .6;
+}
+
+#mainPoint {
+	font-style: 24px;
+	font-weight: bold;
+	background-color: red;
+	opacity: .7;
+}
+
+p.big {
+	font-size: 19px;
+}
+
+article p {
+	font-kerning: 150;
+	font-size: 72;
+}
+
+section li {
+	color:purple;
+	list-style: none;
+}
+a:link, a:visited{
+	text-decoration: none;
+	background-color: green;
+	border: 1px solid blue;
+	color: black;
+	display: block;
+	width: 200px;
+	text-align: center;
+	margin-bottom: 1px;
+}
+
+a:hover, a:active {
+	background-color: red;
+	color: purple;
+}
+
+section li:nth-child(3) {
+	font-size: 24px;
+}
+
+section li:nth-child(odd) {
+	background-color: yellow
+}
